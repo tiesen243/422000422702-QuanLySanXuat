@@ -1,22 +1,27 @@
-### Mô tả
+## Description
 
-<!-- Mô tả ngắn gọn về thay đổi của bạn, lý do thực hiện và các điểm cần lưu ý. -->
+<!-- Please describe your changes in detail. -->
 
-### Checklist
+## Related Issue
 
-- [ ] Đã test đầy đủ các chức năng liên quan
-- [ ] Đã cập nhật/tạo mới tài liệu nếu cần thiết
-- [ ] Đã review lại code trước khi gửi PR
-- [ ] Đảm bảo tiêu đề PR đúng quy tắc
+<!-- Link to the issue this PR resolves (e.g., Closes #123) -->
 
-### Các bước kiểm tra
+Closes #
 
-<!-- Hướng dẫn kiểm tra, test hoặc review thay đổi này. -->
+## Type of Change
 
-### Ảnh chụp màn hình (nếu có)
+<!-- Please check all options that apply: -->
 
-<!-- Đính kèm ảnh chụp màn hình minh hoạ (nếu cần). -->
+- [ ] Bug fix (non-breaking change)
+- [ ] New feature (non-breaking change)
+- [ ] Breaking change (causes existing functionality to change)
+- [ ] Documentation update
 
-### Ghi chú khác
+## Screenshots
 
-<!-- Thông tin bổ sung nếu có. -->
+<!-- If you made UI changes, please add before/after screenshots. Otherwise, you can remove this section. -->
+
+## Checklist
+
+- [ ] I have tested these changes
+- [ ] I have updated documentation if needed
