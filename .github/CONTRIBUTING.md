@@ -8,8 +8,8 @@ Hãy làm theo các bước sau để đảm bảo mọi thay đổi được qu
 
    - Trước khi bắt đầu code, hãy kiểm tra xem đã có issue mô tả công việc chưa.
    - Nếu chưa có, bạn cần tạo issue mới bằng template:
-     - feature_request.md: khi thêm tính năng
-     - bug_report.md: khi sửa lỗi
+     - feature_request: khi thêm tính năng
+     - bug_report: khi sửa lỗi
    - Issue sẽ được assign cho chính người tạo (hoặc người được chỉ định).
 
 2. Fork Repo
@@ -82,35 +82,35 @@ Hãy làm theo các bước sau để đảm bảo mọi thay đổi được qu
 
    **Yêu cầu PR:**
 
-   - Tiêu đề PR phải link với issue đã tạo ở bước 1 theo cú pháp: `<tiền tố>: <mô tả ngắn>, <từ khoá> #<issue-number>`.
+   - Tiêu đề PR phải link với issue đã tạo ở bước 1 theo cú pháp: `<tiền tố>: <mô tả ngắn>`.
 
-     - Các tiền tố thường dùng:
+   - Các tiền tố thường dùng:
 
-       - `feat`: Thêm mới tính năng
-       - `fix`: Sửa lỗi
-       - `chore`: Công việc phụ trợ, không ảnh hưởng đến mã nguồn chính
-       - `refactor`: Cải tiến cấu trúc mã, không thay đổi chức năng
-       - `docs`: Thay đổi tài liệu
-       - `test`: Thêm hoặc sửa test
+     - `feat`: Thêm mới tính năng
+     - `fix`: Sửa lỗi
+     - `chore`: Công việc phụ trợ, không ảnh hưởng đến mã nguồn chính
+     - `refactor`: Cải tiến cấu trúc mã, không thay đổi chức năng
+     - `docs`: Thay đổi tài liệu
+     - `test`: Thêm hoặc sửa test
 
-     - Các từ khoá liên kết issue: (để tự động đóng issue khi PR được merge)
+   - Ví dụ:
 
-       - close
-       - closes
-       - closed
-       - fix
-       - fixes
-       - fixed
-       - resolve
-       - resolves
-       - resolved
-
-     - Ví dụ:
-
-       - `feat: Thêm chức năng đăng nhập, closes #23`
-       - `fix: Sửa lỗi đăng xuất, fixes #45`
+     - `feat: Thêm chức năng đăng nhập`
+     - `fix: Sửa lỗi đăng xuất`
 
    - Mô tả chi tiết những gì đã thay đổi, lý do và cách kiểm tra.
+
+   - Các từ khoá liên kết issue: (để tự động đóng issue khi PR được merge)
+
+     - close
+     - closes
+     - closed
+     - fix
+     - fixes
+     - fixed
+     - resolve
+     - resolves
+     - resolved
 
 9. Review & Merge
 
