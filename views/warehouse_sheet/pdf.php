@@ -42,7 +42,7 @@ $classification = $classification ?? null;
     <tr>
         <td>
             <div class="section-label">Đơn vị</div>
-            <div><strong>SV5TOT</strong></div>
+            <div><strong>QLSX</strong></div>
             <div><strong>Kho:</strong> <?= htmlspecialchars($warehouse['TenKho'] ?? ($document['IdKho'] ?? '-')) ?></div>
             <div><strong>Địa chỉ:</strong> <?= htmlspecialchars($warehouse['DiaChi'] ?? 'Chưa cập nhật') ?></div>
         </td>

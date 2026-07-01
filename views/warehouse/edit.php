@@ -120,7 +120,7 @@ foreach ($employees as $employee) {
 <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
         <h3 class="fw-bold mb-1">Chỉnh sửa thông tin kho</h3>
-        <p class="text-muted mb-0">Cập nhật dữ liệu kho SV5TOT với bố cục rõ ràng, tối ưu cho màn hình desktop.</p>
+        <p class="text-muted mb-0">Cập nhật dữ liệu kho QLSX với bố cục rõ ràng, tối ưu cho màn hình desktop.</p>
     </div>
     <a href="?controller=warehouse&action=index" class="btn btn-outline-secondary">
         <i class="bi bi-arrow-left"></i> Quay lại danh sách

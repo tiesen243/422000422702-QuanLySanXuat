@@ -2,7 +2,7 @@
 
 /**
  * core/QualityCriteria.php
- * Tiêu chí kiểm tra mặc định dùng chung cho hệ thống SV5TOT
+ * Tiêu chí kiểm tra mặc định dùng chung cho hệ thống QLSX
  * - factory     : áp dụng cho từng xưởng sản xuất
  * - production  : áp dụng cho biên bản dây chuyền, thiết bị, quy trình
  * - worker      : áp dụng cho biên bản nhân công
@@ -15,8 +15,8 @@ return [
     // =======================
     'factory' => [
 
-        // ---------------- XƯỞNG LẮP RÁP SV5TOT ----------------
-        'Xưởng Lắp Ráp SV5TOT' => [
+        // ---------------- XƯỞNG LẮP RÁP QLSX ----------------
+        'Xưởng Lắp Ráp QLSX' => [
             ['XG01', 'Kiểm tra đầy đủ linh kiện trước lắp ráp'],
             ['XG02', 'Độ khớp chính xác giữa các bộ phận'],
             ['XG03', 'Không thiếu ốc/vít trong quá trình lắp'],

@@ -1,96 +1,39 @@
-<!-- ===================== BANNER ===================== -->
-<p align="center">
-  <a href="https://iuh.edu.vn/" title="Trường Đại học Công nghiệp TP. Hồ Chí Minh">
-    <img src="https://github.com/Kettailor/422000422702-QuanLySanXuat/blob/main/docs/Logo_IUH.png" width="300">
-  </a>
-</p>
+# Production Management System
 
-<h1 align="center">📦 PHÁT TRIỂN ỨNG DỤNG</h1>
+Hệ thống web quản lý sản xuất bàn phím, hỗ trợ vận hành các nghiệp vụ từ đơn hàng, kế hoạch sản xuất, xưởng, kho, chất lượng, chấm công, lương đến hóa đơn.
 
-<p align="center">
-  <b>ĐỀ TÀI</b><br>
-  <i>XÂY DỰNG HỆ THỐNG WEB QUẢN LÝ SẢN XUẤT CHO NHÀ MÁY BÀN PHÍM</i>
-</p>
+## Tổng Quan
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-MVC-blue" />
-  <img src="https://img.shields.io/badge/MySQL-Database-orange" />
-  <img src="https://img.shields.io/badge/Status-Academic%20Project-success" />
-</p>
+Ứng dụng được phát triển bằng PHP thuần theo kiến trúc MVC, hướng đến:
 
----
+- Minh bạch hóa quy trình nghiệp vụ
+- Hỗ trợ quản lý vận hành sản xuất
+- Dễ dàng mở rộng và bảo trì
 
-## 👥 THÀNH VIÊN NHÓM
+### Nghiệp Vụ Chính
 
-| STT | MSSV     | Họ và Tên              | Vai trò     | GitHub | Email |
-|----:|:--------:|------------------------|-------------|--------|-------|
-| 1 | 22694611 | **Trần Lê Kiệt** | Nhóm trưởng | [Kettailor](https://github.com/Kettailor) | 22694611.kiet@student.iuh.edu.vn |
-| 2 | 22637391 | Nguyễn Trần Thanh Trúc | Thư ký | [ntttruc123](https://github.com/ntttruc123) | 22637391.truc@student.iuh.edu.vn |
-| 3 | 22715051 | Vũ Hải Đăng | Thành viên | [kurovud](https://github.com/kurovud) | 22715051.dang@student.iuh.edu.vn |
-| 4 | 22641441 | Nguyễn Đức Huy | Thành viên | [nguyenhuyk18](https://github.com/nguyenhuyk18) | 22641441.huy@student.iuh.edu.vn |
-| 5 | 22702081 | Lê Hoàng My | Thành viên | [LeHoangMy063](https://github.com/LeHoangMy063) | 22702081.my@student.iuh.edu.vn |
-| 6 | 22653991 | Trần Tiến | Thành viên | [tiesen243](https://github.com/tiesen243) | 22653991.tien@student.iuh.edu.vn |
+- Tiếp nhận và quản lý đơn hàng
+- Lập kế hoạch và điều phối sản xuất
+- Quản lý xưởng sản xuất
+- Quản lý kho nguyên vật liệu và thành phẩm
+- Kiểm soát chất lượng
+- Chấm công và tính lương nhân sự
+- Xuất hóa đơn
 
----
-
-## 📘 THÔNG TIN MÔN HỌC
-
-- **Tên môn học:** Phát triển ứng dụng  
-- **Mã môn học:** `422000422702`  
-- **Mã lớp:** `DHHTTTT18BTT`  
-- **Học kỳ:** HK1 – Năm học 2025–2026  
-- **Giảng viên hướng dẫn:** ThS. **Lê Thùy Trang**
-
----
-
-## 🏭 MÔ TẢ ĐỀ TÀI
-
-Hệ thống web **“Quản lý sản xuất bàn phím SV5TOT”** được xây dựng nhằm mô phỏng và hỗ trợ vận hành chuỗi giá trị sản xuất bàn phím cơ trong môi trường doanh nghiệp.
-
-Ứng dụng được phát triển bằng **PHP thuần**, theo **kiến trúc MVC**, hướng đến:
-- Minh bạch hóa quy trình nghiệp vụ  
-- Hỗ trợ học tập & nghiên cứu  
-- Dễ dàng mở rộng và bảo trì  
-
-### Các nghiệp vụ chính
-- 📦 Tiếp nhận & quản lý đơn hàng  
-- 🗓️ Lập kế hoạch và điều phối sản xuất  
-- 🏭 Quản lý xưởng sản xuất  
-- 📊 Quản lý kho nguyên vật liệu & thành phẩm  
-- ✅ Kiểm soát chất lượng  
-- 👥 Chấm công – tính lương nhân sự  
-- 🧾 Xuất hóa đơn  
-
----
-
-## 🛠️ CÔNG NGHỆ SỬ DỤNG
+## Công Nghệ Sử Dụng
 
 | Thành phần | Công nghệ |
-|----------|----------|
-| Front-end | HTML, CSS, JavaScript |
-| Back-end | PHP (MVC) |
-| Database | MySQL |
+| ---------- | --------- |
+| Front-end  | HTML, CSS, JavaScript |
+| Back-end   | PHP (MVC) |
+| Database   | MySQL |
 
----
+## Cài Đặt
 
-## 📄 TÀI LIỆU & BÁO CÁO
+1. Sao chép `.env.example` thành `.env` và cập nhật thông tin kết nối.
+2. Khởi tạo cơ sở dữ liệu từ `data/script.sql`.
+3. Chạy ứng dụng bằng môi trường PHP/MySQL hoặc Docker Compose.
 
-- 📘 **Báo cáo cuối kỳ:**  
-  👉 [Final Report – PDF](docs/SinhVien5Tot_Nhom2_BCCK.pdf)
+## Bản Quyền
 
----
-
-## 🖥️ GIAO DIỆN MINH HỌA
-
-<p align="center">
-  <img src="https://github.com/Kettailor/422000422702-QuanLySanXuat/blob/main/docs/Home_Page.png" alt="Home Page" height="600">
-</p>
-
----
-
-## © BẢN QUYỀN
-
-<p align="center">
-  <i>Copyright © 2026</i><br>
-  <b>Trần Lê Kiệt</b>
-</p>
+Copyright (c) 2026. All rights reserved.

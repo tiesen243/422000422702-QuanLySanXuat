@@ -196,7 +196,7 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <div>
                 <h3 class="fw-bold mb-1">Đánh giá chất lượng thành phẩm</h3>
-                <p class="text-muted mb-0">Ghi nhận kết quả kiểm tra và biên bản đánh giá cho lô bàn phím SV5TOT.</p>
+                <p class="text-muted mb-0">Ghi nhận kết quả kiểm tra và biên bản đánh giá cho lô bàn phím QLSX.</p>
             </div>
         </div>
 

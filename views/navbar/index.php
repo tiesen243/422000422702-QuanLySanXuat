@@ -73,7 +73,7 @@ if ($isAdminMain) {
 <nav class="sidebar">
     <div class="logo">
         <a href="?controller=dashboard&action=index" class="logo-link" style="text-decoration: none; color: white; font-weight: 700;">
-            <span class="logo-mark">SV5TOT</span>
+            <span class="logo-mark">QLSX</span>
             <span class="logo-subtitle">Production Hub</span>
         </a>
     </div>
@@ -284,7 +284,7 @@ if ($isAdminMain) {
     <header class="topbar">
         <div class="d-flex align-items-center gap-3">
             <button class="btn btn-outline-primary d-lg-none" data-toggle="sidebar"><i class="bi bi-list"></i></button>
-            <a href="?controller=dashboard&action=index" class="topbar-brand" style="text-decoration: none; color: var(--text-dark); font-weight: 700;">SV5TOT</a>
+            <a href="?controller=dashboard&action=index" class="topbar-brand" style="text-decoration: none; color: var(--text-dark); font-weight: 700;">QLSX</a>
         </div>
         <div class="d-flex align-items-center gap-3">
             <?php if ($isImpersonating): ?>

@@ -309,7 +309,7 @@ foreach ($listBienBan as $r) {
   <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
       <h3 class="fw-bold mb-1">Kiểm tra đột xuất</h3>
-      <p class="text-muted mb-0">Theo dõi tiến độ đánh giá và lưu kết quả kiểm tra thành phẩm SV5TOT.</p>
+      <p class="text-muted mb-0">Theo dõi tiến độ đánh giá và lưu kết quả kiểm tra thành phẩm QLSX.</p>
     </div>
     <form class="d-flex" role="search">
       <input id="searchInput" type="text" class="form-control" placeholder="Tìm kiếm biên bản...">

@@ -14,7 +14,7 @@
     <div class="card-body p-5">
         <div class="text-center mb-4">
             <div class="display-6 mb-3 text-primary"><i class="bi bi-gear-wide-connected"></i></div>
-            <h3 class="fw-bold">Sinh viên 5 Tốt ERP</h3>
+            <h3 class="fw-bold">QLSX ERP</h3>
             <p class="text-muted">Đăng nhập để tiếp tục quản trị hệ thống sản xuất.</p>
         </div>
         <?php if (!empty($flash)): ?>

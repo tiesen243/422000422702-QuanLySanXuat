@@ -29,7 +29,7 @@ return [
                         [
                             'id' => 'NL002',
                             'quantity_per_unit' => 1,
-                            'label' => 'PCB SV5TOT R3',
+                            'label' => 'PCB QLSX R3',
                             'unit' => 'PCB',
                         ],
                     ],

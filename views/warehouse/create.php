@@ -23,8 +23,8 @@ $workshopManagerJson = htmlspecialchars(json_encode($workshopManagerMap, JSON_UN
 
 <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
-        <h3 class="fw-bold mb-1">Thêm kho SV5TOT mới</h3>
-        <p class="text-muted mb-0">Khai báo kho SV5TOT và thông tin người phụ trách.</p>
+        <h3 class="fw-bold mb-1">Thêm kho QLSX mới</h3>
+        <p class="text-muted mb-0">Khai báo kho QLSX và thông tin người phụ trách.</p>
     </div>
     <a href="?controller=warehouse&action=index" class="btn btn-outline-secondary"><i class="bi bi-arrow-left"></i> Quay lại</a>
 </div>
@@ -127,7 +127,7 @@ $workshopManagerJson = htmlspecialchars(json_encode($workshopManagerMap, JSON_UN
             </div>
 
             <div class="col-12 text-end">
-                <button class="btn btn-primary px-4" type="submit" data-role="submit-btn">Lưu kho SV5TOT</button>
+                <button class="btn btn-primary px-4" type="submit" data-role="submit-btn">Lưu kho QLSX</button>
             </div>
         </form>
     </div>

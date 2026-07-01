@@ -220,7 +220,7 @@ if (session_status() === PHP_SESSION_NONE) {
   <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
       <h3 class="fw-bold mb-1">Kiểm tra chất lượng sản phẩm</h3>
-      <p class="text-muted mb-0">Theo dõi tiến độ đánh giá và lưu kết quả kiểm tra thành phẩm SV5TOT.</p>
+      <p class="text-muted mb-0">Theo dõi tiến độ đánh giá và lưu kết quả kiểm tra thành phẩm QLSX.</p>
     </div>
     <form class="d-flex" role="search">
       <input id="searchInput" type="text" class="form-control" placeholder="Tìm kiếm lô, sản phẩm...">
